@@ -34,7 +34,6 @@ function App() {
     fetchData();
   },[]);  //This task is performed when app component is rendered ; task-to fetch data from API call
 
-  //min-h-screen	min-height: 100vh;
   return (
     <div className="min-h-screen flex flex-col bg-slate-400"> 
       <div>

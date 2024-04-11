@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 const Card = (props) => {
    let course = props.course;
-   let likedCourses = props.likedCourses; //ye ek array hai jisme track hoga ki konse courses like huye hai or konse nahi
+   let likedCourses = props.likedCourses;
 
    let setLikedCourses = props.setLikedCourses;
 
@@ -56,4 +56,3 @@ const Card = (props) => {
 }
 export default Card;
 
-//return ke andar sirf components likhte hai agar js ka code likhna hai toh div ke andar { } dene padenge
